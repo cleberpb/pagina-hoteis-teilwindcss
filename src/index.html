@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotéis</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50">
+
+<body class="bg-gray-50 text-gray-600">
 
     <!-- header -->
     <div>
@@ -31,7 +33,7 @@
 
     <!-- banner -->
     <div style="background: url('./imagens/banner01.png'); height: 450px;">
-        <div class="container mx-auto h-full px-4 flex items-center justify-center"> 
+        <div class="container mx-auto h-full px-4 flex items-center justify-center">
             <!-- pesquisa -->
             <div>
                 <div class="text-center">
@@ -48,9 +50,15 @@
                             <option value="">Esolha a Cidade</option>
                         </select>
                         <!--butão-->
-                        <button class="inline-flex items-center text-yellow-950 bg-yellow-700 font-medium px-3 py-2 rounded"><svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-5 h-5 mr-2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
-                          </svg>Pesquisar resorts</button>
+                        <button
+                            class="inline-flex items-center text-yellow-950 bg-yellow-600 font-medium px-3 py-2 rounded"><svg
+                                data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                class="w-5 h-5 mr-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z">
+                                </path>
+                            </svg>Pesquisar resorts</button>
                         <!--fim butão-->
                     </form>
                 </div>
@@ -60,7 +68,44 @@
         </div>
     </div>
     <!--fim banner -->
+
+    <!--destaque-->
+    <div>
+        <div class="container mx-auto px-4 p-10">
+            <div class="flex">
+                <div class="pr-10">
+                    <div class="text-sm text-gray-400 font-medium">RESORT EM DESTAQUE</div>
+                    <div class="text-2xl">Ecoresort Praia do Forte Bahia</div>
+                    <div class="text-sm text-gray-400 font-medium mt-1">Hotel qualidade 5 estrelas</div>
+                    <div class="text-sm text-gray-400 font-medium mt-4">
+                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio ut placeat in
+                            assumenda? Omnis aperiam unde enim voluptatibus aliquam? Aperiam praesentium iure alias
+                            ratione inventore ad. Ipsa, cum officia!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga nisi aut nam, quia
+                            repellat? Recusandae iste id temporibus aut quo!</p>
+                        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, deleniti itaque
+                            aut, numquam ducimus recusandae, quod eligendi totam delectus nulla voluptatum mollitia quas
+                            molestiae praesentium at explicabo error odit aperiam.</p>
+                    </div>
+                    <div>
+                        <button
+                            class="inline-flex items-center text-yellow-950 bg-yellow-600 font-medium px-3 py-2 rounded mt-5"><a
+                                href="#">Solicitar reserva<svg class="w-5 h-5 inline-flex ml-2" data-slot="icon"
+                                    fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"></path>
+                                </svg></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 ml-auto">
+                    <img src="./imagens/destaque01.png" alt="" width="453">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fim destaque-->
 </body>
+
 </html>
-
-
